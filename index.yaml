@@ -3,12 +3,145 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-20T13:58:34.935258741Z"
+    created: "2025-01-20T14:54:37.457029174Z"
+    dependencies:
+    - condition: ms-tariff.enabled
+      name: ms-tariff
+      repository: ""
+      version: 1.0.0
+    - condition: ms-support.enabled
+      name: ms-support
+      repository: ""
+      version: 1.0.0
+    - condition: ms-streaming.enabled
+      name: ms-streaming
+      repository: ""
+      version: 1.0.0
+    - condition: ms-sms-adapter.enabled
+      name: ms-sms-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-signature.enabled
+      name: ms-signature
+      repository: ""
+      version: 1.0.0
+    - condition: ms-schedule.enabled
+      name: ms-schedule
+      repository: ""
+      version: 1.0.0
+    - condition: ms-rudata-migrator.enabled
+      name: ms-rudata-migrator
+      repository: ""
+      version: 1.0.0
+    - condition: ms-rudata-adapter.enabled
+      name: ms-rudata-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-quik-adapter.enabled
+      name: ms-quik-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-push-adapter.enabled
+      name: ms-push-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-portfolio.enabled
+      name: ms-portfolio
+      repository: ""
+      version: 1.0.0
+    - condition: ms-poll.enabled
+      name: ms-poll
+      repository: ""
+      version: 1.0.0
+    - condition: ms-order.enabled
+      name: ms-order
+      repository: ""
+      version: 1.0.0
+    - condition: ms-onboarding.enabled
+      name: ms-onboarding
+      repository: ""
+      version: 1.0.0
+    - condition: ms-notification.enabled
+      name: ms-notification
+      repository: ""
+      version: 1.0.0
+    - condition: ms-market-data-streaming.enabled
+      name: ms-market-data-streaming
+      repository: ""
+      version: 1.0.0
+    - condition: ms-market-data-history.enabled
+      name: ms-market-data-history
+      repository: ""
+      version: 1.0.0
+    - condition: ms-log.enabled
+      name: ms-log
+      repository: ""
+      version: 1.0.0
+    - condition: ms-keycloak-adapter.enabled
+      name: ms-keycloak-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-invest-idea.enabled
+      name: ms-invest-idea
+      repository: ""
+      version: 1.0.0
+    - condition: ms-instrument.enabled
+      name: ms-instrument
+      repository: ""
+      version: 1.0.0
+    - condition: ms-gateway.enabled
+      name: ms-gateway
+      repository: ""
+      version: 1.0.0
+    - condition: ms-fansy-adapter.enabled
+      name: ms-fansy-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-esiafinance-adapter.enabled
+      name: ms-esiafinance-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-email-adapter.enabled
+      name: ms-email-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-dictionary.enabled
+      name: ms-dictionary
+      repository: ""
+      version: 1.0.0
+    - condition: ms-cryptopro-adapter.enabled
+      name: ms-cryptopro-adapter
+      repository: ""
+      version: 1.0.0
+    - condition: ms-configuration.enabled
+      name: ms-configuration
+      repository: ""
+      version: 1.0.0
+    - condition: ms-audit.enabled
+      name: ms-audit
+      repository: ""
+      version: 1.0.0
+    - condition: ms-attachment.enabled
+      name: ms-attachment
+      repository: ""
+      version: 1.0.0
+    - condition: ms-advertising.enabled
+      name: ms-advertising
+      repository: ""
+      version: 1.0.0
+    - condition: ms-acquire.enabled
+      name: ms-acquire
+      repository: ""
+      version: 1.0.0
+    - condition: ms-user.enabled
+      name: ms-user
+      repository: ""
+      version: 1.0.0
     description: A Helm chart for Kubernetes
-    digest: a33151c156ca3505feea486f7ca4dbdbc18967de43256db3075c0d97185590de
+    digest: 859608469337a22575b519a70149a82e78edbcd96a2b4ddfe092d3ff9f077ac1
     name: tradex
     type: application
     urls:
     - https://github.com/tradexbell/helm/tradex-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-20T13:58:34.927764992Z"
+generated: "2025-01-20T14:54:37.446921847Z"

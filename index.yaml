@@ -2,8 +2,184 @@ apiVersion: v1
 entries:
   tradex:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-01-21T13:16:21.63384716Z"
+    dependencies:
+    - alias: ms-tariff
+      condition: ms-tariff.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-support
+      condition: ms-support.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-streaming
+      condition: ms-streaming.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-sms-adapter
+      condition: ms-sms-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-signature
+      condition: ms-signature.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-schedule
+      condition: ms-schedule.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-rudata-migrator
+      condition: ms-rudata-migrator.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-rudata-adapter
+      condition: ms-rudata-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-quik-adapter
+      condition: ms-quik-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-push-adapter
+      condition: ms-push-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-portfolio
+      condition: ms-portfolio.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-poll
+      condition: ms-poll.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-order
+      condition: ms-order.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-onboarding
+      condition: ms-onboarding.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-notification
+      condition: ms-notification.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-market-data-streaming
+      condition: ms-market-data-streaming.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-market-data-history
+      condition: ms-market-data-history.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-log
+      condition: ms-log.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-keycloak-adapter
+      condition: ms-keycloak-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-invest-idea
+      condition: ms-invest-idea.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-instrument
+      condition: ms-instrument.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-gateway
+      condition: ms-gateway.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-fansy-adapter
+      condition: ms-fansy-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-esiafinance-adapter
+      condition: ms-esiafinance-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-email-adapter
+      condition: ms-email-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-dictionary
+      condition: ms-dictionary.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-cryptopro-adapter
+      condition: ms-cryptopro-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-configuration
+      condition: ms-configuration.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-audit
+      condition: ms-audit.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-attachment
+      condition: ms-attachment.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-advertising
+      condition: ms-advertising.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-acquire
+      condition: ms-acquire.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    - alias: ms-user
+      condition: ms-user.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.1
+    description: A Helm chart for Kubernetes
+    digest: 85e1e99ed0367b44bc0dedbd0b2d3f3a890b493ed8a542dfd6b7e19ef0d670cd
+    name: tradex
+    type: application
+    urls:
+    - https://tradexbell.github.io/helm/tradex-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-21T13:14:47.840575317Z"
+    created: "2025-01-21T13:16:21.631083971Z"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -177,4 +353,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/tradex-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-21T13:14:47.82977047Z"
+generated: "2025-01-21T13:16:21.627963537Z"

@@ -3,7 +3,7 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-21T10:50:58.965592857Z"
+    created: "2025-01-21T10:52:07.721328537Z"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -171,10 +171,10 @@ entries:
       repository: file://../base-ms
       version: 1.0.0
     description: A Helm chart for Kubernetes
-    digest: 7abf767dcf1d8731d0f0174f5a0b4d00f2114ee1d86682b37f83666806e1182b
+    digest: f2f52652f90c01b754a561aa51f6c2e9e5af24339038e3793917cfb5f4a920f5
     name: tradex
     type: application
     urls:
     - https://tradexbell.github.io/helm/tradex-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-21T10:50:58.959273289Z"
+generated: "2025-01-21T10:52:07.718167594Z"

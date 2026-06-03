@@ -3,7 +3,7 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2025-08-14T13:43:27.096541109Z"
+    created: "2026-06-03T12:16:14.990486647Z"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -194,7 +194,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2025-08-14T13:43:27.089646984Z"
+    created: "2026-06-03T12:16:14.985001023Z"
     dependencies:
     - alias: ms-assignment
       condition: ms-assignment.enabled
@@ -380,7 +380,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-08-14T13:43:27.081401628Z"
+    created: "2026-06-03T12:16:14.977896642Z"
     dependencies:
     - alias: ui-client
       condition: ui-client.enabled
@@ -551,7 +551,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-14T13:43:27.073328669Z"
+    created: "2026-06-03T12:16:14.972970826Z"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -717,7 +717,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-14T13:43:27.06801998Z"
+    created: "2026-06-03T12:16:14.968546053Z"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -881,4 +881,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/tradex-1.0.0.tgz
     version: 1.0.0
-generated: "2025-08-14T13:43:27.062508033Z"
+generated: "2026-06-03T12:16:14.961517018Z"

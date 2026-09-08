@@ -3,7 +3,7 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-09-08T16:07:59.446616925+03:00"
+    created: "2026-09-08T16:23:32.552899787+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -194,7 +194,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-09-08T16:07:59.444898176+03:00"
+    created: "2026-09-08T16:23:32.551326773+03:00"
     dependencies:
     - alias: ms-assignment
       condition: ms-assignment.enabled
@@ -380,7 +380,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-09-08T16:07:59.442423587+03:00"
+    created: "2026-09-08T16:23:32.549694427+03:00"
     dependencies:
     - alias: ui-client
       condition: ui-client.enabled
@@ -551,7 +551,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-09-08T16:07:59.43981216+03:00"
+    created: "2026-09-08T16:23:32.546976292+03:00"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -717,7 +717,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T16:07:59.437723243+03:00"
+    created: "2026-09-08T16:23:32.544626716+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -947,8 +947,239 @@ entries:
     - https://tradexbell.github.io/helm/tradex-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
+    appVersion: 0.0.6
+    created: "2026-09-08T16:23:32.540303293+03:00"
+    dependencies:
+    - alias: ms-bff
+      condition: ms-bff.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-task
+      condition: ms-task.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-bridge-adapter
+      condition: ms-bridge-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ui-client-mp
+      condition: ui-client-mp.enabled
+      name: base-ui
+      repository: file://../base-ui
+      version: 0.0.6
+    - alias: ms-dib-adapter
+      condition: ms-dib-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-partners-adapter
+      condition: ms-partners-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-document
+      condition: ms-document.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-tinkoff-adapter
+      condition: ms-tinkoff-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-assignment
+      condition: ms-assignment.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ui-client
+      condition: ui-client.enabled
+      name: base-ui
+      repository: file://../base-ui
+      version: 0.0.6
+    - alias: ms-tariff
+      condition: ms-tariff.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-support
+      condition: ms-support.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-streaming
+      condition: ms-streaming.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-sms-adapter
+      condition: ms-sms-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-signature
+      condition: ms-signature.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-schedule
+      condition: ms-schedule.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-rudata-migrator
+      condition: ms-rudata-migrator.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-rudata-adapter
+      condition: ms-rudata-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-quik-adapter
+      condition: ms-quik-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-push-adapter
+      condition: ms-push-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-portfolio
+      condition: ms-portfolio.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-poll
+      condition: ms-poll.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-order
+      condition: ms-order.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-onboarding
+      condition: ms-onboarding.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-notification
+      condition: ms-notification.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-market-data-streaming
+      condition: ms-market-data-streaming.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-market-data-history
+      condition: ms-market-data-history.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-log
+      condition: ms-log.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-keycloak-adapter
+      condition: ms-keycloak-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-invest-idea
+      condition: ms-invest-idea.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-instrument
+      condition: ms-instrument.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-gateway
+      condition: ms-gateway.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-fansy-adapter
+      condition: ms-fansy-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-esiafinance-adapter
+      condition: ms-esiafinance-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-email-adapter
+      condition: ms-email-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-dictionary
+      condition: ms-dictionary.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-cryptopro-adapter
+      condition: ms-cryptopro-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-configuration
+      condition: ms-configuration.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-audit
+      condition: ms-audit.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-attachment
+      condition: ms-attachment.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-advertising
+      condition: ms-advertising.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-acquire
+      condition: ms-acquire.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: ms-user
+      condition: ms-user.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 0.0.6
+    - alias: lb-core
+      condition: lb-core.enabled
+      name: base-lb
+      repository: file://../base-lb
+      version: 0.0.6
+    description: A Helm chart for Kubernetes
+    digest: 5b0fa5694768a396285c51127dfe2f8ed2b7d39a81e8a7c93e998602fbda92dc
+    name: tradex
+    type: application
+    urls:
+    - https://tradexbell.github.io/helm/tradex-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-09-08T16:07:59.433361161+03:00"
+    created: "2026-09-08T16:23:32.536964846+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1144,7 +1375,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-09-08T16:07:59.431104552+03:00"
+    created: "2026-09-08T16:23:32.534778816+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1340,7 +1571,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-09-08T16:07:59.428613723+03:00"
+    created: "2026-09-08T16:23:32.53188056+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1531,7 +1762,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-09-08T16:07:59.42538621+03:00"
+    created: "2026-09-08T16:23:32.529812614+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1722,7 +1953,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-09-08T16:07:59.421401161+03:00"
+    created: "2026-09-08T16:23:32.525903492+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1913,7 +2144,7 @@ entries:
     version: 0.0.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2026-09-08T16:07:59.418602515+03:00"
+    created: "2026-09-08T16:23:32.522034751+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -2142,4 +2373,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/tradex-0.0.0.tgz
     version: 0.0.0
-generated: "2026-09-08T16:07:59.415831958+03:00"
+generated: "2026-09-08T16:23:32.516516865+03:00"

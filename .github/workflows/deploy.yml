@@ -1,0 +1,87 @@
+name: Secure Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      auth_header:
+        description: 'Authorization header'
+        required: true
+        type: string
+      client:
+        description: 'Client'
+        required: true
+        type: choice
+        options:
+          - mp
+          - vector
+
+jobs:
+  auth:
+    runs-on: ubuntu-latest
+    outputs:
+      authorized: ${{ steps.check.outputs.authorized }}
+      
+    steps:
+      - name: Check Auth
+        id: check
+        run: |
+          HEADER="${{ github.event.inputs.auth_header }}"
+          CLIENT="${{ github.event.inputs.client }}"
+          
+          # Decode
+          TOKEN=$(echo "$HEADER" | cut -d' ' -f2)
+          CREDS=$(echo "$TOKEN" | base64 -d)
+          USER=$(echo "$CREDS" | cut -d':' -f1)
+          PASS=$(echo "$CREDS" | cut -d':' -f2-)
+          
+          # Check based on client
+          if [ "$CLIENT" == "mp" ]; then
+            if [ "$USER" == "${{ secrets.MP_USER }}" ] && [ "$PASS" == "${{ secrets.MP_PASS }}" ]; then
+              echo "authorized=true" >> $GITHUB_OUTPUT
+              echo "✅ MP authorized"
+            else
+              echo "authorized=false" >> $GITHUB_OUTPUT
+              echo "❌ MP invalid"
+              exit 1
+            fi
+          elif [ "$CLIENT" == "vector" ]; then
+            if [ "$USER" == "${{ secrets.VECTOR_USER }}" ] && [ "$PASS" == "${{ secrets.VECTOR_PASS }}" ]; then
+              echo "authorized=true" >> $GITHUB_OUTPUT
+              echo "✅ Vector authorized"
+            else
+              echo "authorized=false" >> $GITHUB_OUTPUT
+              echo "❌ Vector invalid"
+              exit 1
+            fi
+          else
+            echo "authorized=false" >> $GITHUB_OUTPUT
+            echo "❌ Unknown client"
+            exit 1
+          fi
+
+  deploy:
+    needs: auth
+    if: needs.auth.outputs.authorized == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to Pages
+        run: |
+          CLIENT="${{ github.event.inputs.client }}"
+          
+          # Deploy files to client directory
+          mkdir -p public/$CLIENT
+          cp -r files/* public/$CLIENT/ 2>/dev/null || true
+
+      - name: Upload Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

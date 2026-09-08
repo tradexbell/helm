@@ -3,7 +3,7 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-09-08T17:26:12.452771318+03:00"
+    created: "2026-09-08T17:31:08.458330373+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -194,7 +194,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-09-08T17:26:12.450224157+03:00"
+    created: "2026-09-08T17:31:08.456365911+03:00"
     dependencies:
     - alias: ms-assignment
       condition: ms-assignment.enabled
@@ -380,7 +380,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-09-08T17:26:12.448547261+03:00"
+    created: "2026-09-08T17:31:08.454014812+03:00"
     dependencies:
     - alias: ui-client
       condition: ui-client.enabled
@@ -551,7 +551,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-09-08T17:26:12.44596589+03:00"
+    created: "2026-09-08T17:31:08.452451908+03:00"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -717,7 +717,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T17:26:12.443236158+03:00"
+    created: "2026-09-08T17:31:08.451037038+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -948,7 +948,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.6
-    created: "2026-09-08T17:26:12.440620865+03:00"
+    created: "2026-09-08T17:31:08.447546547+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -1171,7 +1171,7 @@ entries:
       repository: file://../base-lb
       version: 0.0.6
     description: A Helm chart for Kubernetes
-    digest: 7773722070bf8064342e759fa30845f325db339bba3b25a5328e0f50271e08f3
+    digest: ab4ba18b55c9776f1cc2e26ef68801302ca5e55063bb4adc22f59f6e8b3df4a9
     name: tradex
     type: application
     urls:
@@ -1179,7 +1179,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-09-08T17:26:12.43738896+03:00"
+    created: "2026-09-08T17:31:08.443067077+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1375,7 +1375,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-09-08T17:26:12.435128511+03:00"
+    created: "2026-09-08T17:31:08.43961624+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1571,7 +1571,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-09-08T17:26:12.432057956+03:00"
+    created: "2026-09-08T17:31:08.43570073+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1762,7 +1762,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-09-08T17:26:12.429947841+03:00"
+    created: "2026-09-08T17:31:08.431840314+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1953,7 +1953,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-09-08T17:26:12.426925471+03:00"
+    created: "2026-09-08T17:31:08.429729558+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -2144,7 +2144,7 @@ entries:
     version: 0.0.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2026-09-08T17:26:12.424773703+03:00"
+    created: "2026-09-08T17:31:08.426380653+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -2373,4 +2373,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/tradex-0.0.0.tgz
     version: 0.0.0
-generated: "2026-09-08T17:26:12.421101886+03:00"
+generated: "2026-09-08T17:31:08.423703167+03:00"

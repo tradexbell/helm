@@ -3,7 +3,7 @@ entries:
   tradex:
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-09-08T17:42:47.57732025+03:00"
+    created: "2026-09-08T18:11:54.148402462+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -194,7 +194,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-09-08T17:42:47.574731395+03:00"
+    created: "2026-09-08T18:11:54.146743393+03:00"
     dependencies:
     - alias: ms-assignment
       condition: ms-assignment.enabled
@@ -380,7 +380,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-09-08T17:42:47.571779634+03:00"
+    created: "2026-09-08T18:11:54.143989829+03:00"
     dependencies:
     - alias: ui-client
       condition: ui-client.enabled
@@ -551,7 +551,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-09-08T17:42:47.569234987+03:00"
+    created: "2026-09-08T18:11:54.142497265+03:00"
     dependencies:
     - alias: ms-tariff
       condition: ms-tariff.enabled
@@ -717,7 +717,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T17:42:47.566886279+03:00"
+    created: "2026-09-08T18:11:54.141152049+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -948,7 +948,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2026-09-08T17:42:47.563221353+03:00"
+    created: "2026-09-08T18:11:54.13739684+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -1171,7 +1171,7 @@ entries:
       repository: file://../base-lb
       version: 0.0.7
     description: A Helm chart for Kubernetes
-    digest: de1847d3806d5f2043a85ddd502d898b02345c21b3a0d85d10c80ecf9c1b80e6
+    digest: ed4f1e8d32585bef934aca6ea64518d8f736ddba2ab6aa75f74875983b4291a3
     name: tradex
     type: application
     urls:
@@ -1179,7 +1179,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.6
-    created: "2026-09-08T17:42:47.560662829+03:00"
+    created: "2026-09-08T18:11:54.134944609+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -1410,7 +1410,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-09-08T17:42:47.555672191+03:00"
+    created: "2026-09-08T18:11:54.131943323+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1606,7 +1606,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-09-08T17:42:47.552750114+03:00"
+    created: "2026-09-08T18:11:54.129734396+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1802,7 +1802,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-09-08T17:42:47.54979812+03:00"
+    created: "2026-09-08T18:11:54.126786477+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -1993,7 +1993,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-09-08T17:42:47.547494387+03:00"
+    created: "2026-09-08T18:11:54.124689455+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -2184,7 +2184,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-09-08T17:42:47.544870262+03:00"
+    created: "2026-09-08T18:11:54.120626865+03:00"
     dependencies:
     - alias: ms-tinkoff-adapter
       condition: ms-tinkoff-adapter.enabled
@@ -2375,7 +2375,7 @@ entries:
     version: 0.0.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2026-09-08T17:42:47.541788715+03:00"
+    created: "2026-09-08T18:11:54.118466766+03:00"
     dependencies:
     - alias: ms-bff
       condition: ms-bff.enabled
@@ -2604,4 +2604,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/tradex-0.0.0.tgz
     version: 0.0.0
-generated: "2026-09-08T17:42:47.538974086+03:00"
+generated: "2026-09-08T18:11:54.115762901+03:00"

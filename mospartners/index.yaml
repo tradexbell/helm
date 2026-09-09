@@ -2,6 +2,157 @@ apiVersion: v1
 entries:
   tradex:
   - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2026-09-09T14:08:12.794053202Z"
+    dependencies:
+    - alias: ms-user
+      condition: ms-user.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-task
+      condition: ms-task.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-tariff
+      condition: ms-tariff.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-support
+      condition: ms-support.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-streaming
+      condition: ms-streaming.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-sms-adapter
+      condition: ms-sms-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-signature
+      condition: ms-signature.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-schedule
+      condition: ms-schedule.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-rudata-adapter
+      condition: ms-rudata-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-portfolio
+      condition: ms-portfolio.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-poll
+      condition: ms-poll.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-notification
+      condition: ms-notification.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-market-data-history
+      condition: ms-market-data-history.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-log
+      condition: ms-log.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-keycloak-adapter
+      condition: ms-keycloak-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-invest-idea
+      condition: ms-invest-idea.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-instrument
+      condition: ms-instrument.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-gateway
+      condition: ms-gateway.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-email-adapter
+      condition: ms-email-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-document
+      condition: ms-document.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-dictionary
+      condition: ms-dictionary.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-dib-adapter
+      condition: ms-dib-adapter.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-configuration
+      condition: ms-configuration.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-bff
+      condition: ms-bff.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-audit
+      condition: ms-audit.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-attachment
+      condition: ms-attachment.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: ms-assignment
+      condition: ms-assignment.enabled
+      name: base-ms
+      repository: file://../base-ms
+      version: 1.0.3
+    - alias: lb-core
+      condition: lb-core.enabled
+      name: base-lb
+      repository: file://../base-lb
+      version: 1.0.3
+    description: A Helm chart for Kubernetes
+    digest: 2bda09219ab208b87688735aed879ae042b5b188a3bcad5849e157d59df4e413
+    name: tradex
+    type: application
+    urls:
+    - https://tradexbell.github.io/helm/mospartners/tradex-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     appVersion: 1.0.2
     created: "2026-09-09T13:51:59.219779234Z"
     dependencies:
@@ -303,4 +454,4 @@ entries:
     urls:
     - https://tradexbell.github.io/helm/mospartners/tradex-1.0.1.tgz
     version: 1.0.1
-generated: "2026-09-09T13:51:59.20777051Z"
+generated: "2026-09-09T14:08:12.783818826Z"
